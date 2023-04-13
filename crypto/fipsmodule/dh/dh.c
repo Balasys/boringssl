@@ -70,7 +70,7 @@
 #include "internal.h"
 
 
-#define OPENSSL_DH_MAX_MODULUS_BITS 10000
+#define OPENSSL_DH_MAX_MODULUS_BITS 16385
 
 DH *DH_new(void) {
   DH *dh = OPENSSL_malloc(sizeof(DH));
